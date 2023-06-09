@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | tr '\n' ',' | sed 's/,$/\n/; s/\([^\/]\)$/\1\//'
+ls -p | grep -E -v "/$" | sort -df | paste -sd ","
