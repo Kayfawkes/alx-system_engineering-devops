@@ -1,0 +1,2 @@
+#!/bin/bas
+cat < /dev/tcp/towel.blinkenlights.nl/4
