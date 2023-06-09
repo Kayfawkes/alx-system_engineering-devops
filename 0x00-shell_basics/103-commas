@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | grep -E -v "/$" | sort -df | paste -sd ","
+ls -xmpa
